@@ -1,0 +1,174 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 100%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+@font-face {
+  font-family: Raleway SemiBold;
+  src: url(/mountain/fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway Medium;
+  src: url(/mountain/fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Raleway Extra Bold;
+  src: url(/mountain/fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Monserrat Light;
+  src: url(/mountain/fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header article {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+body section {
+  padding: 300px;
+}
+
+body {
+  background-image: url(/mountain/images/background.jpg);
+
+  /* background-position: center; 
+ Ik had het gemaakt voor dat je zei om background-position te gebruiken en als ik het gebruik dan klopt het niet meer */
+}
+
+aside {
+  background-color: white;
+  height: 375px;
+  display: flex;
+}
+
+aside nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+aside nav article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  width: 300px;
+  gap: 15px;
+}
+
+section {
+  height: 900px;
+}
+
+h1 {
+  font-family: Raleway Medium;
+  font-size: 36px;
+  color: white;
+}
+
+h2 {
+  font-family: Raleway Extra Bold;
+  font-size: 52px;
+  color: white;
+  padding-top: 25px;
+}
+
+.Monserrat {
+  font-family: Monserrat Light;
+  font-size: 16px;
+  color: white;
+  width: 580px;
+  padding: 25px;
+}
+button {
+  font-family: Raleway Extra Bold;
+  font-size: 14px;
+  color: white;
+  background-color: #998675;
+  padding: 20px 50px;
+}
+
+.titels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Raleway {
+  font-family: Raleway Medium;
+  color: white;
+  font-size: 34px;
+}
+
+nav ul li {
+  padding: 60px 15px 0px 10px;
+}
+ul li {
+  font-family: Monserrat Light;
+  color: white;
+  font-size: 14px;
+}
+
+header article {
+  padding-left: 160px;
+  padding-top: 35px;
+}
+
+.Raleway {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+header nav {
+  padding-right: 200px;
+}
+
+h3 {
+  font-family: Raleway SemiBold;
+  color: #998675;
+  font-size: 22px;
+}
+
+aside nav article p {
+  font-family: Monserrat Light;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+nav ul li:hover {
+  color: #998675;
+}
+
+span {
+  padding: 0px 70px;
+  display: flex;
+  justify-content: space-between;
+}
